@@ -1,0 +1,171 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.EntityFrameworkCore >= 6.0.8",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\TI PORMADE\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Meus arquivos\\TI PORMADE\\Downloads\\Crud-Teste-API-main\\Crud-Teste-API-main\\Crud-Campos-Dealer\\Crud-Campos-Dealer.csproj",
+      "projectName": "Crud-Campos-Dealer",
+      "projectPath": "D:\\Meus arquivos\\TI PORMADE\\Downloads\\Crud-Teste-API-main\\Crud-Teste-API-main\\Crud-Campos-Dealer\\Crud-Campos-Dealer.csproj",
+      "packagesPath": "C:\\Users\\TI PORMADE\\.nuget\\packages\\",
+      "outputPath": "D:\\Meus arquivos\\TI PORMADE\\Downloads\\Crud-Teste-API-main\\Crud-Teste-API-main\\Crud-Campos-Dealer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\TI PORMADE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.8, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[6.0.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.Build.Locator' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.build.locator/index.json'.",
+      "libraryId": "Microsoft.Build.Locator"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'NuGet.Packaging' da origem remota 'https://api.nuget.org/v3-flatcontainer/nuget.packaging/index.json'.",
+      "libraryId": "NuGet.Packaging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'System.Configuration.ConfigurationManager' da origem remota 'https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/index.json'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'System.Security.Cryptography.X509Certificates' da origem remota 'https://api.nuget.org/v3-flatcontainer/system.security.cryptography.x509certificates/index.json'.",
+      "libraryId": "System.Security.Cryptography.X509Certificates"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'System.Private.Uri' da origem remota 'https://api.nuget.org/v3-flatcontainer/system.private.uri/index.json'.",
+      "libraryId": "System.Private.Uri"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'Microsoft.EntityFrameworkCore.Tools.6.0.8' de 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.tools/6.0.8/microsoft.entityframeworkcore.tools.6.0.8.nupkg'.\r\nThe SSL connection could not be established, see inner exception.\r\n   Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.VisualStudio.Web.CodeGenerators.Mvc' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.web.codegenerators.mvc/index.json'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGenerators.Mvc"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'Microsoft.EntityFrameworkCore.6.0.8' de 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/6.0.8/microsoft.entityframeworkcore.6.0.8.nupkg'.\r\nThe SSL connection could not be established, see inner exception.\r\n   Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'Microsoft.EntityFrameworkCore.SqlServer.6.0.8' de 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlserver/6.0.8/microsoft.entityframeworkcore.sqlserver.6.0.8.nupkg'.\r\nThe SSL connection could not be established, see inner exception.\r\n   Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.DotNet.Scaffolding.Shared' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.dotnet.scaffolding.shared/index.json'.",
+      "libraryId": "Microsoft.DotNet.Scaffolding.Shared"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.EntityFrameworkCore.Tools' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.tools/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.EntityFrameworkCore' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.EntityFrameworkCore.SqlServer' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlserver/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    }
+  ]
+}
